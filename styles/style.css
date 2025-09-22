@@ -1,0 +1,53 @@
+* {
+    background-color: rgb(255, 247, 235);
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: papyrus, Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+    border: rgb(136, 199, 250), 2px, solid;
+    background-color: ghostwhite;
+    color:rgb(136, 199, 250);
+    padding: 5px;
+    width: 300px;
+    height: 65px;
+    margin: auto;
+    text-align: center;
+}
+
+.home-link {
+    background-color: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+.link-container {
+    text-align: center;
+}
+.recipe {
+    width: 400px;
+    height: 300px;
+    background-size: 400px 300px;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 100px;
+    background-image: inherit;
+    text-decoration: none;
+    padding: 120px;
+    text-align: center;
+    border: 5px ridge ghostwhite;
+}
+
+.one {
+    background-image: url("../images/stroganoff.jpeg");
+}
+
+.two {
+    background-image: url("https://live.staticflickr.com/7492/15737968131_4246c51f8b_b.jpg");
+}
+
+.three {
+    background-image: url("https://source.roboflow.com/am3qw3RzG3XESvD4hwIKqwpvMTn2/6FWw2DCwdN1bEsa6B32P/original.jpg");
+}
