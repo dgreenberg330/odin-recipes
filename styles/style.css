@@ -1,6 +1,9 @@
 * {
-    background-color: rgb(255, 247, 235);
     box-sizing: border-box;
+}
+
+html {
+        background-color: rgb(255, 247, 235);
 }
 
 h1, .caption{
@@ -44,16 +47,26 @@ img {
     background-color: ghostwhite;
 }
 
-.recipe {
+.home-image {
     margin: 40px;
     margin-bottom: 10px;
 }
 
-.recipe:hover{
+.home-image:hover{
   opacity: 0.5;
 }
 
 .caption {
     font-size: 25px;
     text-decoration: none;
+}
+
+.recipe {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    padding-top: 0px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
 }
