@@ -8,7 +8,7 @@ h1{
     text-align: center;
 }
 
-.main-header {
+.header {
     border: rgb(136, 199, 250), 2px, solid;
     background-color: ghostwhite;
     color:rgb(136, 199, 250);
@@ -16,7 +16,10 @@ h1{
     width: 300px;
     height: 65px;
     margin: auto;
-    margin-bottom: 100px;
+}
+
+.main{
+        margin-bottom: 100px;
 }
 
 .home-link {
